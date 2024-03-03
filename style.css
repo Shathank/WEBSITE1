@@ -1,0 +1,76 @@
+.blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./asset/bg.jpg');
+    background-size: cover;
+    filter: blur(10px); /* Apply blur effect to the background image */
+    z-index: -1; /* Ensure the background is behind the content */
+}
+
+h1{
+   
+    font-family: 'Sono', sans-serif;
+    color: rgb(29, 56, 26);
+    text-align: center;
+    margin-top: 100px;
+    height: 0;
+    font-size: 3rem;
+    
+    
+
+    padding-top: 10px;
+}
+.outerc{
+   height: 70vh;
+   
+   border-radius: 20px;
+   align-content: center;
+  
+
+}
+.innerc{
+
+display:flex;
+align-items: baseline;
+gap: 2vh;
+text-align: center;
+margin: 150px;
+justify-content: space-between;
+flex: 1;
+padding: 50px;
+border: 10px solid;
+
+}
+
+.h{
+    border-radius: 20px;
+    width: 300px;
+    border: 3px solid rgb(210, 228, 167);
+    /background-color: rgb(179, 255, 179);
+}
+.c{
+    border-radius: 20px;
+    width: 300px;
+    border: 3px solid rgb(210, 228, 167);
+    /background-color: rgb(179, 255, 179);
+}
+.m{
+    border-radius: 20px;
+    width: 300px;
+    border: 3px solid rgb(210, 228, 167);
+    /background-color: rgb(179, 255, 179);
+}
+
+img{
+width: 200px;
+height: 200px;}
+p{
+    color: white;
+}
+img{
+    border-radius: 20px;
+}
+
